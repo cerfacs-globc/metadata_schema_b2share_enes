@@ -55,6 +55,7 @@ Example global attributes from a CF compliant CMIP6 datafile:
 		:tracking_id = "hdl:21.14100/b5b223fc-78a9-4adc-8ba2-124b235cef46" ;
 		:DODS_EXTRA.Unlimited_Dimension = "time" ;
 
+
 Variable specific, not including ancillary and coordinate variables:
 	float psl(time, lat, lon) ;
 		psl:long_name = "Sea Level Pressure" ;
@@ -71,71 +72,3 @@ Variable specific, not including ancillary and coordinate variables:
 		psl:cell_measures = "area: areacella" ;
 		psl:standard_name = "air_pressure_at_mean_sea_level" ;
 		psl:_ChunkSizes = 1, 128, 256 ;
-
-
-Proposed automated (if possible) extraction of the following optional global attributes:
-Conventions
-creation_date
-description
-activity_id
-experiment_id
-experiment
-further_info_url
-grid
-grid_label
-nominal_resolution
-institution_id
-institution
-license
-mip_era
-parent_experiment_id
-parent_mip_era
-parent_activity_id
-parent_source_id
-parent_time_units
-parent_variant_label
-product
-realm
-references
-source
-source_id
-source_type
-sub_experiment_id
-sub_experiment
-table_id
-variable_id
-variant_label
-EXPID
-history
-tracking_id
-
-Non-CMIP optional:
-Metadata_Conventions
-summary
-keywords
-processor
-cdm_datatype
-time_coverage_start
-time_coverage_end
-geospatial_lat_max
-geospatial_lat_min
-geospatial_lon_max
-geospatial_lon_min
-
-Mandatory:
-frequency
-contact
-title
-
-If file is having only one variable (taken manually or from variable_id global attribute), automate extraction of:
-
-Optional:
-long_name
-description
-history
-
-Mandatory:
-standard_name
-units
-
-

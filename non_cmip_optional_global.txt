@@ -1,0 +1,11 @@
+Metadata_Conventions
+summary
+keywords
+processor
+cdm_datatype
+time_coverage_start
+time_coverage_end
+geospatial_lat_max
+geospatial_lat_min
+geospatial_lon_max
+geospatial_lon_min
